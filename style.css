@@ -11,7 +11,7 @@
     border-top: 3px solid #ff7200;
 /*    display: flex; justify-content: center;*/
 /*     font-size: 0.875rem;   */
-    background: url(../img/m4.jpg)  !important;
+    background: url("https://whoreonline.000webhostapp.com/vhr/m4.jpg")  !important;
 }
  
     
@@ -38,7 +38,7 @@
     width: 250px;
     height: 180px;
     margin-left:20px;
-    background: url(../images/stabmenubg.png) no-repeat top center;
+    background: url("https://whoreonline.000webhostapp.com/vhr/stabmenubg.png") no-repeat top center;
     border:0px;
     transition: all 0.6s;
 }
@@ -48,7 +48,7 @@
 }
 /*
 .servic_tabe_menu.nav-tabs>li.activ>a:hover, .nav-tabs>li.activ>a:focus{
-    background: url(../images/stabmenubghv.png) no-repeat top center;
+    background: url("https://whoreonline.000webhostapp.com/vhr/stabmenubghv.png") no-repeat top center;
     width:250px;
     height: 180px;
 
@@ -57,7 +57,7 @@
 }
 */
 .servic_tabe ul li a:hover{
-   background: url(../images/stabmenubghv.png) no-repeat top center;
+   background: url("https://whoreonline.000webhostapp.com/vhr/stabmenubghv.png") no-repeat top center;
    color:#fff;
 }
 .servic_tabe ul li a i{
@@ -103,7 +103,7 @@
 .abou .singl_abou .singl_ab_icon i{
     width: 100px;
     height: 105px;
-    background: url(../images/iconbg1.png) no-repeat center center;
+    background: url("https://whoreonline.000webhostapp.com/vhr/iconbg1.png") no-repeat center center;
     line-height: 100px;
     text-align: center;
     color: #444;
@@ -112,7 +112,7 @@
 /*    border: 1px solid blue;*/
 }
 .abou .singl_abou:hover .singl_ab_icon i {
-    background: url(../images/iconbg1h.png) no-repeat center center;
+    background: url("https://whoreonline.000webhostapp.com/vhr/iconbg1h.png") no-repeat center center;
     color: #fff;
 
 }
@@ -127,7 +127,7 @@
     font-size: 15px;
 /*    border: 1px solid red;*/
     font-family: 'Open Sans', sans-serif;
-    background: url(../img/m5.jpg);
+    background: url("https://alr6uq.dm.files.1drv.com/y4mZZ_0fUy2r39VNXyXABzOwhKd-irvZXDQa3rH_SY5OFv9l769E-09GFJNHDE399k2BSBCnuYk47xYwYf7yUFHQqt83QeG9c7dvldbh_4PJFUPT04TGe4eT2XPYFKPGvvb59ez3PEQpDHLZ2NkOQbunOKA56j5L7E8GPZeeIpeo4Y3kmRa787n8G3yCN2YXW-aioavQsFAMoY7C9oNl404IQ?width=40&height=40&cropmode=none");
 
     
     padding: 5px;
@@ -152,29 +152,6 @@
 /*abou_skill_area*/  
 .abou_skill_area{
     margin-top:75px;
-}
-.abou_skill_area .abou_tabe .abou_tabe_menu li a{
-    background: url(../images/skmenubg.png) no-repeat top center;
-    width:175px;
-    height: 60px;
-    line-height: 50px;
-    text-align: center;
-    color:#444444;
-    display: inline-block;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
-/*
-.abou_skill_area .abou_tabe .abou_tabe_menu li.activ a:hover, .abou_tabe_menu li.activ a:focus {
-    color: #fff;
-    cursor: pointer;
-    background: url(../images/skmenubgh.png) no-repeat top center;
-}
-*/
-.abou_skill_area .abou_tabe .abou_tabe_menu li a:hover{
-/*    color: #fff;*/
-/*    background: url(../images/skmenubgh.png) no-repeat top center;*/
 }
 
 .othersservic{
