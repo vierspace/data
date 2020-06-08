@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Ionicons";
+/*    src: url("../fonts/ionicons.eot?v=2.0.1");*/
+    src:  
+        url("../fonts/ionicons.woff?v=2.0.1") format("woff");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+.ion-ios-arrow-back:before,
+.ion-ios-arrow-forward:before,
+.ion-play:before,
+.ion-ios-search:before,
+.ion-ios-help-outline:before,
+.ion-link:before,
+.ion-ios-home-outline:before,
+.ion-social-whatsapp-outline:before,
+.ion-ios-checkmark-outline:before,
+.ion-ios-chatboxes-outline:before,
+.ion-ios-email:before,
+.ion-ios-email-outline:before{
+        display: inline-block; 
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+/*-------------------------------------*/
+.ion-ios-arrow-back:before {
+    content: "\f3cf";
+}
+.ion-ios-arrow-forward:before {
+    content: "\f3d1";
+}
+.ion-play:before {
+    content: "\f215";
+}
+.ion-ios-search:before {
+    content: "\f4a5";
+}
+.ion-link:before {
+    content: "\f1fe";
+}
+.ion-ios-home-outline:before {
+    content: "\f447";
+}
+.ion-social-whatsapp-outline:before {
+    content: "\f4ef";
+}
+.ion-ios-email:before {
+    content: "\f423";
+}
+.ion-ios-email-outline:before {
+    content: "\f422";
+}
+.ion-ios-checkmark-outline:before {
+    content: "\f3fe";
+}
+.ion-ios-help-outline:before {
+    content: "\f445";
+}
+.ion-ios-chatboxes-outline:before {
+    content: "\f3f9";
+}
+/*------------------------------*/
+.ion-social-whatsapp-outline{
+    color: #757575 !important;
+}
+
