@@ -61,7 +61,7 @@ body, html{
 	transition:  color 0.2s ease-in-out;
 }
 .st-accordion ul li > a span{
-	background: transparent url(../img/slide/down.png) no-repeat center center;
+	background: transparent url(https://vierspace.github.io/data/img/down.png) no-repeat center center;
 	text-indent:-9000px;
 	width: 26px;
 	height: 14px;
@@ -258,7 +258,7 @@ body, html{
 	transition: all 0.4s ease-in-out 0.2s;
 }
 .ch-img-2 { 
-	background-image: url(../images/pus.jpg);
+	background-image: url(https://ysokxq.dm.files.1drv.com/y4mpaIGjtPdIMxZoU8UF2wQWWOACy9ga2jTtr32GXgCWqslcT6I6CuhFdyq8Zn99u1zDVcW_C5qXaLGANVrn9tZ3ZWCJvQjDDzmnlfSHiSxCGOmqUpCR3WvI3VmQ11pyNmIRf7hch23AHR9Wk642s_pNP8S9Ki4h_A-iNBhmrwu_oaAHnnABZlbhKHr1XElSGtlg5syjWB_GZfL9aCrGv8JNQ?width=220&height=220&cropmode=none);
 }
 .ch-info h3 {
 	color: #fff;
