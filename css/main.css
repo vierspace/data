@@ -1769,8 +1769,9 @@ button.close:hover{
 } 
 .t_title p{
     font-weight: 100;
-    color: #6d6d6d;
-    font-size: 18px
+    color: #989898;
+    font-size: 18px;
+    font-style: italic;
 }
 .t_title p span img{
     margin-right: 5px;
