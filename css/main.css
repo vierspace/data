@@ -1751,6 +1751,7 @@ button.close:hover{
     text-align: center;
     padding: 20px 0 20px 0;
     margin: 50px 0 20px 0;
+	font-style: italic;
 }
 .t_title h1{
     font-weight: 100;
