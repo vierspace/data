@@ -2726,4 +2726,6 @@ h2.ss-subtitle:after{
 #hidet, #hidem {
     display: inline;
     margin: 0;
+    position: relative;
+    bottom: 5px;
 }
