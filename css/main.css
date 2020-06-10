@@ -2722,3 +2722,8 @@ h2.ss-subtitle:after{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/**/
+#hidet, #hidem {
+    display: inline;
+    margin: 0;
+}
