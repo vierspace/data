@@ -1135,14 +1135,15 @@ ul.external li a:hover {
 
 .social-button li a {
     border: 2px solid #fff;
-    border-radius: 50%;
+    border-radius: 10px;
     color: #fff;
     display: block;
     height: 90px;
     line-height: 96px;
-    width: 90px;
     font-size: 40px;
     line-height: 90px;
+    background: rgb(255, 255, 255, 0.7 );
+    padding: 0 20px;
     -webkit-transition: all 0.2s ease 0s;
        -moz-transition: all 0.2s ease 0s;
         -ms-transition: all 0.2s ease 0s;
