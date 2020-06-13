@@ -259,6 +259,7 @@ display: flex;
 }
 .label-input100 span{
     color: red;
+    padding-left: 2px;
 }
 .input100 {
   display: block;
