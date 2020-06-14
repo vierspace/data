@@ -150,15 +150,19 @@ main > section {
 }
 
 .section-title h2 {
-/*    color: #0aa6bd;*/
-/*    color: #0aa6bd;*/
     font-size: 24px;
-    font-weight: 700;
     line-height: 20px;
     margin-bottom: 25px;
     padding-bottom: 20px;
     position: relative;
     text-transform: uppercase;
+}
+.section-title .section-ttt:after {
+    background: transparent;
+}
+.section-title .section-ttt {
+    font-size: 1.7em;
+    font-weight: 700;
 }
 .section-title p {
     color: #444;
