@@ -1742,6 +1742,11 @@ button.close:hover{
     color: red; 
     font-size: 12px;
 }
+.t_main {
+    background: url(https://whoreonline.000webhostapp.com/vhr/m4.jpg);
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ebebeb;
+}
 .t_main, .t_title_main{
     display: flex; 
     justify-content: center;
