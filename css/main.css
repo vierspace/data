@@ -1831,29 +1831,7 @@ button.close:hover{
     padding-top: 25px;
     margin: 0 30px 0 30px;
 }
-.t_box_up span:nth-child(2){
-    font-size: 28px;
-}
-.t_box_up span:nth-child(3){
-    font-size: 25px;
-    font-weight: 100;
-}
-.t_box_up span:nth-child(4){
-/*    font-size: 25px;*/
-/*    font-weight: 100;*/
-/*    color: red*/
-}
-.t_box_up span:nth-child(5){
-    font-size: 15px;
-    margin-top: 5px;
-}
-.t_box_up span:nth-child(5),
-.t_box_up span:nth-child(6),
-.t_box_up span:nth-child(7),
-.t_box_up span:nth-child(8){
-    display: block;
-    color:#717171;
-}
+
 
 
 .t_box_mid{
