@@ -1798,39 +1798,130 @@ button.close:hover{
     margin-top: 40px;
     font-family: calibri, sans-serif;
 }
+.t_wrp{
+        display: flex;
+    justify-content: center;
+}
 .t_box{
-/*   border: 1px solid pink;*/
     margin: 15px;
-/*    max-width: 380px;*/
     width: 99%;
-    box-shadow: 0 0 38px -20px grey;
-    border: 1px solid #e2e2e2;
     position: relative;
-    
-    background: #f5f5f5;
-    border-radius: 6px;
-/*    padding: 1px;*/
+    background: #fff;
+    border-radius: 5px;
     padding-bottom: 74px;
 }
+.t_box1{
+    border: 1px solid #00ADB5;
+}
+.t_box2{
+    border: 1px solid #59c7fb;
+       
+}
+.t_box3{
+         border: 1px solid #4bd200;
+}
+.t_box4{
+        border: 1px solid #ff923a;
+}
+
 .t_box_up{
 /*    height: 140px;*/
 }
-/* .t_box_up h2{
+.t_box_up h2{
+    color: #000;
     margin: 10px;
-    font-weight: 400;
-    font-size: 16px;
-}  */
-/* .t_box_up{
+    font-weight:100;
+        font-size: 23px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-shadow: ;
+}
+
+.t_box_up{
     text-align: center;
     padding-top: 25px;
-    border-radius:  6px 6px 0 0;
-} */
+/*    border-radius:  6px 6px 0 0;*/
+}
+
+
 .t_box_up_line{
     border-bottom: 1px solid #ececec;
     padding-top: 25px;
     margin: 0 30px 0 30px;
 }
 
+.t_box_up span:nth-child(2){
+    font-size: 28px; 
+    color: #e4744e;
+}
+.t_box_up span:nth-child(3){
+    font-size: 25px;
+    font-weight: 100;
+    color: #e4744e;
+}
+
+/*Este identifica al BR*/
+.t_box_up span:nth-child(4){
+
+}
+.t_box_up span:nth-child(5){
+    font-size: 15px;
+    margin-top: 5px; ;
+}
+.t_box_up span:nth-child(5),
+.t_box_up span:nth-child(6),
+.t_box_up span:nth-child(7),
+.t_box_up span:nth-child(8){
+    display: block;
+    color:#717171;
+}
+.t_box_up span:nth-child(6){
+    margin-top: 8px;
+/*    border: 1px solid red;*/
+/*    margin-bottom: 0 !important;*/
+/*    padding-bottom: 0 !important;*/
+    height: 20px;
+    padding-top: 4px;
+}
+.t_box_up span:nth-child(6),
+.t_box_up span:nth-child(7){
+/*    font-style: italic;*/
+    color: #fff;
+    background: #3bbdee;
+    font-size: 12px
+/*    border-radius: 5px*/
+}
+.t_box_up span:nth-child(7){
+    padding-bottom: 5px;
+}
+/**/
+.t_box-inff{
+/*border: 1px solid pink;*/
+    display: flex; justify-content: center;
+    margin: ;
+    padding: 20px 0;
+/*    background: #f1f1f1;*/
+}
+.t_box-inf{
+/*      border-top: 2px dashed #ddd;*/
+/*    border-bottom: 2px dashed #ddd;  */
+    padding: 0 30px;
+}
+.t_box-inf p{
+    font-weight: 100;
+    font-family:;
+    color: #000;
+}
+.t_box_up_line1{
+    border-bottom: 1px solid #a6d8f8;
+    padding-top: 25px;
+    margin: 0 30px;
+}
+.t_box_up_line2{
+    border-bottom: 1px solid #a6d8f8;
+    padding-top: ;
+    margin: 0 30px;
+}
 
 
 .t_box_mid{
@@ -1856,12 +1947,13 @@ button.close:hover{
     font-weight: 100;
 /*    border: 1px solid pink;*/
     line-height: 3;
+    color: #000;
 }
 .t_box_mid ul li i{
     
 }
 .ion-ios-checkmark-outline{
-    color: darkblue;
+    color: red;
     font-size: 18px;
     margin-right: 5px;
 }
@@ -1919,42 +2011,75 @@ button.close:hover{
     font-weight: 500;
 }
 
-/* .t_box_middle{
-    background: #ffab67;
+.t_box_middle{
+    
+    background: ;
     padding-bottom: 26px;
-} */
-.t_box_middle1{
-    background: #ffeada;
 }
+.t_box_middle1{
+    background: ;
+}
+.t_box_middle2{
+    background: ;
+}
+.t_box_middle3{
+    background: ;
+}
+.t_box_middle4{
+    background: ;
+}
+
+
 .t_box_dw{
     text-align: center;
 /*    border: 1PX SOLID GREY;*/
 }
 .t_box_dw a{
-    background: #ffab67;
-    color: #000;
+/*    background: #ffab67;*/
+    color: #fff;
     display: block;
     line-height: 4.5; 
     position: absolute;
     width: 100%;
     bottom: 0;
+    font-size: 16px;
+    font-weight: ;
+    letter-spacing: 1.5px;
 }
+.tbd1 a{
+    background: #00ADB5;
+}
+.tbd2 a{
+    background: #59c7fb
+}
+.tbd3 a{
+    background:  #4bd200;
+}
+.tbd4 a{
+ background: #ff923a   
+}
+
 .t_box_dw a:hover{
     color: #000;  
 }
 .t_box_dw a{
     transition: color 0.5s;
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1300px){
     .t_content{
         display: block;
     }
     .t_box{
-        max-width: 99%;
+        max-width: 450px;
         margin-top: 40px;
-        margin: 25px 2px 25px 2px;
+/*        margin: 25px 2px 25px 2px;*/
     }
 
+}
+@media screen and (max-width: 700px){
+    .t_wrp{
+        flex-wrap: wrap;
+    }
 }
 
 /**/
