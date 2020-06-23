@@ -1820,12 +1820,11 @@ button.close:hover{
     font-weight: 400;
     font-size: 16px;
 }  */
-.t_box_up{
+/* .t_box_up{
     text-align: center;
-/*    border: 1PX SOLID GREY;*/
     padding-top: 25px;
     border-radius:  6px 6px 0 0;
-}
+} */
 .t_box_up_line{
     border-bottom: 1px solid #ececec;
     padding-top: 25px;
