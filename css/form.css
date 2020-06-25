@@ -470,8 +470,6 @@ textarea.input100 {
     display: block;
     position: relative;
     padding-left: 35px;
-    margin-bottom: ;
-    cursor: pointer;
     font-size: 14px;
     font-weight: 400;
     -webkit-user-select: none;
@@ -483,7 +481,6 @@ textarea.input100 {
 .wrap200 input {
     position: absolute;
     opacity: 0;
-    cursor: pointer;
 }
 .check {
     position: absolute;
@@ -491,8 +488,8 @@ textarea.input100 {
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: #eee;
-    border: 1px solid #ccc;
+    background-color: #fff;
+    border: 2px solid #ccc;
 }
 .wrap200:hover input ~ .check {
     border: 2px solid #2489C5;
