@@ -2035,7 +2035,7 @@ button.close:hover{
 /*    border: 1PX SOLID GREY;*/
 }
 .t_box_dw a{
-/*    background: #ffab67;*/
+    background: #ffab67;
     color: #fff;
     display: block;
     line-height: 4.5; 
