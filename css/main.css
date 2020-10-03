@@ -1148,7 +1148,6 @@ ul.external li a:hover {
     line-height: 90px;
     background: rgb(255, 255, 255, 0.7 );
     padding: 0 20px;
-	    cursor: pointer;
     -webkit-transition: all 0.2s ease 0s;
        -moz-transition: all 0.2s ease 0s;
         -ms-transition: all 0.2s ease 0s;
@@ -1733,7 +1732,7 @@ button.close:hover{
 /**/
 #price{
     padding-bottom: 70px;
-    border-bottom: 2px solid orange;
+    border-bottom: 1px solid #f5f5f5;
 }
 /**/
 
@@ -1746,14 +1745,18 @@ button.close:hover{
     font-size: 12px;
 }
 .t_main {
-    background: url(https://whoreonline.000webhostapp.com/vhr/m4.jpg);
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ebebeb;
-}
-.t_main, .t_title_main{
+/*
     display: flex; 
     justify-content: center;
-/*    border: 1px solid blue;*/
+*/
+    background: url(https://whoreonline.000webhostapp.com/vhr/m4.jpg);
+    padding-bottom: 90px;
+    border-bottom: 1px solid #ebebeb;
+    
+}
+.t_title_main{
+    display: flex; 
+    justify-content: center;
 }
 .t_title{
 /*    border: 1px solid red;*/
@@ -1773,6 +1776,18 @@ button.close:hover{
     border-bottom: 1px solid #cacaca;
 /*    padding-bottom: 10px;*/
 }
+.t_cloudf{
+    display: flex;
+    justify-content: center;
+    padding: 23px 0;
+    background: #003682;
+}
+.t_cloudh img {
+    width: 130px;
+}
+
+
+
 @media screen and (max-width: 750px){
     .t_title span{
     border-bottom: none;
@@ -1795,7 +1810,7 @@ button.close:hover{
 /*    width: 1200px;*/
     max-width: 1900px;
     width: 99%;
-    margin-top: 40px;
+    padding-top: 40px;
     font-family: calibri, sans-serif;
 }
 .t_wrp{
@@ -1809,6 +1824,7 @@ button.close:hover{
     background: #fff;
     border-radius: 5px;
     padding-bottom: 74px;
+    max-width: 650px;
 }
 .t_box1{
     border: 1px solid #00ADB5;
@@ -1855,9 +1871,9 @@ button.close:hover{
     color: #e4744e;
 }
 .t_box_up span:nth-child(3){
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 100;
-    color: #e4744e;
+    color: #717171;
 }
 
 /*Este identifica al BR*/
@@ -1880,15 +1896,15 @@ button.close:hover{
 /*    border: 1px solid red;*/
 /*    margin-bottom: 0 !important;*/
 /*    padding-bottom: 0 !important;*/
-    height: 20px;
-    padding-top: 4px;
+/*    height: 20px;*/
+        line-height: 3;
 }
 .t_box_up span:nth-child(6),
 .t_box_up span:nth-child(7){
 /*    font-style: italic;*/
     color: #fff;
     background: #3bbdee;
-    font-size: 12px
+    font-size: 14px
 /*    border-radius: 5px*/
 }
 .t_box_up span:nth-child(7){
@@ -1926,8 +1942,9 @@ button.close:hover{
 
 .t_box_mid{
     text-align: center;
-/*    border: 1PX SOLID GREY;*/
+border-top: 1px solid #f7f7f7;
     padding: 20px 0 20px 0;
+        background: #fafafa;
 }
 .t_box_mid_spec{
     text-align: left;
@@ -1946,19 +1963,19 @@ button.close:hover{
     font-size: 16px;
     font-weight: 100;
 /*    border: 1px solid pink;*/
-    line-height: 3;
+    line-height: 2;
     color: #000;
 }
 .t_box_mid ul li i{
     
 }
 .ion-ios-checkmark-outline{
-    color: red;
+    color: #f48120;
     font-size: 18px;
     margin-right: 5px;
 }
 .ion-ios-help-outline{
-    font-size: 23px;
+    font-size: 18px;
     color:darkblue;
 /*    background-color: red;*/
 }
@@ -1990,7 +2007,9 @@ button.close:hover{
     border-left: 5px solid #ff7200;
 }
 */
-
+.t_info{
+    font-size: 10px;
+}
 .spec a{
     font-size: 13px;
     color: #cd5701;
@@ -2041,10 +2060,24 @@ button.close:hover{
     line-height: 4.5; 
     position: absolute;
     width: 100%;
-    bottom: 0;
-    font-size: 16px;
-    font-weight: ;
+    bottom: 0px;
+    font-size: 19px;
+    font-weight: 600;
     letter-spacing: 1.5px;
+    border-radius: 0 0 4px 4px;
+}
+.payp{
+    background: ;
+    position: absolute;
+    
+    bottom: -90px;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.txt-inf{
+    margin-top: 50px;
 }
 .tbd1 a{
     background: #00ADB5;
@@ -2065,9 +2098,10 @@ button.close:hover{
 .t_box_dw a{
     transition: color 0.5s;
 }
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 900px){
     .t_content{
-        display: block;
+            flex-direction: column;
+    align-items: center;
     }
     .t_box{
         max-width: 450px;
@@ -2095,21 +2129,22 @@ button.close:hover{
 /*    flex-wrap: wrap;*/
     display: inline-block;
     border: 1px solid #ddd;
-    border-bottom: 8px solid #e2e2e2;
+        border-top: 26px solid #e2e2e2;
+    border-bottom: 26px solid #e2e2e2;
 /*    padding: 2px;*/
-    padding: 0 25px 25px 25px;
+    padding: 10px 35px 30px 35px;
 /*    opacity: 0.8;*/
     box-shadow: 0 0 50px -25px;
 /*    box-shadow: 0 0  30px -5px ;*/
-    border-radius: 0 20px;
+   border-radius: 5px;
 }
 .imm-tit{
     width: 100%;
-    text-align: center;
+/*    text-align: center;*/
 /*    border: 1px solid blue;*/
 }
 .imm-tit h2{
-    color: #6d6d6d;
+    font-size: 25px;
 }
 .imm-cont{
 /*    border: 1px solid pink;*/
@@ -2118,8 +2153,7 @@ button.close:hover{
     align-items: center;
 }
 .imm-cont2{
-/*    border: 1px solid violet;*/
-    margin-left: 15px;
+    margin-left: 26px;
 }
 
 
@@ -2708,12 +2742,12 @@ h2.ss-subtitle:after{
 	background: url(../img/shape1.svg) no-repeat center bottom;
 	background-size: 100% 100%;
 	z-index: 9999;
-	width: 200px;
+	width: 210px;
 	bottom: 150%;
-	left: -90px;
+	left: -94px;
     right: ;
 	margin-bottom: 5px;
-	padding: 50px 20px;
+	padding: 50px 10px;
 	text-align: center;
 	color: #fff;
 	opacity: 0;
@@ -2858,4 +2892,73 @@ h2.ss-subtitle:after{
 }
 .iss-date img{
     max-width: 100%;
+}
+
+/**/
+
+.cloudflr {
+border: 1px dashed #ddd;
+    display: flex;
+    padding: 20px;
+    border-radius: 0 10px 0 10px;
+}
+.cloud1 {
+    display: flex;
+    align-items: center;
+        margin-right: 20px;
+}
+.cloud1 p {
+    color: #f48120;
+    font-family: monospace;
+    font-style: oblique;
+}
+.cloud2 img {
+    width: 135px;
+}
+.cloudflare{
+/*        border: 1px solid #ddd;*/
+/*    padding: 20px;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+/*    width: 200px;*/
+    -webkit-transform: translate(-0%, 0);
+    transform: translate(-0%, 0);
+    -webkit-animation: scroll 3s infinite alternate;
+    animation: scroll 3s infinite alternate;
+}
+@-webkit-keyframes scroll {
+  100% {
+    -webkit-transform: translate(-0%, 15px);
+            transform: translate(-0%, 15px);
+  }
+}
+@keyframes scroll {
+  100% {
+    -webkit-transform: translate(-0%, 15px);
+            transform: translate(-0%, 15px);
+  }
+}
+
+.clouda, .cloudb {
+    width: 15%;
+}
+.clouda {
+    border-top: 1px solid #ebebeb;
+}
+.cloudb {
+    border-bottom: 1px solid #ebebeb;
+}
+/**/
+.imm-cont1.imm-cont-cloud img {
+    width: 51px;
+}
+.imm-tit-cloud{
+    margin-top: 30px;
+}
+.no-checkmark {
+    padding-left: 24px;
+}
+.ion{
+    color: yellowgreen;
 }
