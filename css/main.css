@@ -2158,16 +2158,9 @@ border-top: 1px solid #f7f7f7;
     margin-left: 26px;
 }
 @media screen and (max-width: 450px){
-    .imm-cont1 {
-    display: none;
+    .imm-cont {
+    flex-direction: column;
 }
-    .imm-cont1.imm-cont-cloud {
-    display: none;
-}
-.imm-cont2 {
-    margin-left: 26px;
-}
-    
 }
 
 /**/
