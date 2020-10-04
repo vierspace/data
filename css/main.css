@@ -151,7 +151,7 @@ main > section {
 
 .section-title h2 {
     font-size: 24px;
-    line-height: 20px;
+    line-height: 1.5;
     margin-bottom: 25px;
     padding-bottom: 20px;
     position: relative;
@@ -1966,9 +1966,8 @@ border-top: 1px solid #f7f7f7;
     line-height: 2;
     color: #000;
 }
-.t_box_mid ul li i{
-    
-}
+
+
 .ion-ios-checkmark-outline{
     color: #f48120;
     font-size: 18px;
@@ -2105,17 +2104,20 @@ border-top: 1px solid #f7f7f7;
     }
     .t_box{
         max-width: 450px;
-        margin-top: 40px;
 /*        margin: 25px 2px 25px 2px;*/
     }
-
+    .t_boxa1 {
+    margin-top: 125px;
 }
 @media screen and (max-width: 700px){
     .t_wrp{
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width: 900px){
 
+}
+}
 /**/
 .imm-core{
     display: flex;
