@@ -1,6 +1,6 @@
 
 .design-skill{ background: #fff;
-/*    border: 1px solid green;*/
+/*    border: 1px solid green;*/ 
     padding: 3px;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@
 }
 /*
 .servic_tabe_menu.nav-tabs>li.activ>a:hover, .nav-tabs>li.activ>a:focus{
-    background: url("https://whoreonline.000webhostapp.com/vhr/stabmenubghv.png") no-repeat top center;
+    background: url(../images/stabmenubghv.png) no-repeat top center;
     width:250px;
     height: 180px;
 
@@ -57,7 +57,7 @@
 }
 */
 .servic_tabe ul li a:hover{
-   background: url("https://whoreonline.000webhostapp.com/vhr/stabmenubghv.png") no-repeat top center;
+   background: url(../images/stabmenubghv.png) no-repeat top center;
    color:#fff;
 }
 .servic_tabe ul li a i{
@@ -69,7 +69,11 @@
 .servic .tab-content{
     margin-top:100px;
 }
-
+@media screen and (max-width: 600px){
+    .servic{
+        display: none;
+    }
+}
 /*abou section css*/
 .abou{
     
@@ -103,7 +107,7 @@
 .abou .singl_abou .singl_ab_icon i{
     width: 100px;
     height: 105px;
-    background: url("https://whoreonline.000webhostapp.com/vhr/iconbg1.png") no-repeat center center;
+    background: url(../images/iconbg1.png) no-repeat center center;
     line-height: 100px;
     text-align: center;
     color: #444;
@@ -112,7 +116,7 @@
 /*    border: 1px solid blue;*/
 }
 .abou .singl_abou:hover .singl_ab_icon i {
-    background: url("https://whoreonline.000webhostapp.com/vhr/iconbg1h.png") no-repeat center center;
+    background: url(../images/iconbg1h.png) no-repeat center center;
     color: #fff;
 
 }
@@ -152,6 +156,31 @@
 /*abou_skill_area*/  
 .abou_skill_area{
     margin-top:75px;
+}
+/*
+.abou_skill_area .abou_tabe .abou_tabe_menu li a{
+    background: url(../images/skmenubg.png) no-repeat top center;
+    width:175px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    color:#444444;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+*/
+/*
+.abou_skill_area .abou_tabe .abou_tabe_menu li.activ a:hover, .abou_tabe_menu li.activ a:focus {
+    color: #fff;
+    cursor: pointer;
+    background: url(../images/skmenubgh.png) no-repeat top center;
+}
+*/
+.abou_skill_area .abou_tabe .abou_tabe_menu li a:hover{
+/*    color: #fff;*/
+/*    background: url(../images/skmenubgh.png) no-repeat top center;*/
 }
 
 .othersservic{
@@ -298,6 +327,11 @@ background:#EDEBEE;
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width: 670px){
+    .skill-main{
+        display: none;
+    }
+}
 @media screen and (max-width: 640px){
     .design-skill{
         justify-content: flex-start;
@@ -305,7 +339,11 @@ background:#EDEBEE;
     #content{
         overflow: hidden;
     }
+/*
     .skill-main{
         overflow: hidden;
     }
+*/
 }
+
+
