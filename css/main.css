@@ -1114,7 +1114,15 @@ ul.external li a:hover {
 #testimonials .owl-next:hover {
     color: #fff;
 }
-
+@media screen and (max-width: 670px){
+    .video-bg{
+        display: none;
+    }
+    #testimonials{
+        display: none;
+    }
+    
+}
 #social {
     background-image: url(https://ka9v3g.dm.files.1drv.com/y4m0wl8pD--xmLMRl47BEqDA8h9NtpsKva-2aye8xZ0iHNBkBW7QFkzy5Zq8sbECMON6b1A72utKboZsDA0znxd8IpUtY7wrFXdZlDuV0dfJpW4WnD7jOK_y59TYkPwLLtUXkAY33seEqX0l7Ob-ZcbWVKZxP-jrZa3b-PM1FRsANZuK0_3DED1ziMNlIz3l6WiIA1dEZN-oUhcW23WpmYBag?width=1600&height=1114&cropmode=none);
     padding: 0;
