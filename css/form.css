@@ -251,7 +251,6 @@ display: flex;
     min-height: 55px;
     border-bottom: none;
     padding: 10px 25px;
-    margin-top: 15px;
     margin-bottom: 0;
     font-weight: 100;
 }
@@ -611,4 +610,12 @@ input:invalid {
     font-size: 25px !important;
     position: relative;
     top: 5px;
+}
+.test-sp{
+	margin-top: 18px;
+	font-weight: bolder;
+	color: #000;
+}
+p.contact100-form-title1.cfot {
+    margin-top: 15px;
 }
