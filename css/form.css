@@ -201,7 +201,7 @@ display: flex;
   background: rgba(0,0,0,0.8);
 }
 .contact100-form {
-  width: 50%;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
