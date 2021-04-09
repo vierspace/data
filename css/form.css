@@ -248,7 +248,6 @@ display: flex;
     display: flex;
     align-items: center;
     width: 100%;
-    min-height: 55px;
     border-bottom: none;
     padding: 10px 25px;
     margin-bottom: 0;
@@ -284,7 +283,7 @@ input.input100 {
   height: 55px;
 }
 textarea.input100 {
-  min-height: 139px;
+  min-height: 90px;
   padding-top: 19px;
   padding-bottom: 15px;
 }
