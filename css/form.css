@@ -222,6 +222,8 @@ display: flex;
 }
 .contact100-form-title1{
     font-size: 14px;
+	    padding-bottom: 4px;
+    margin-bottom: 10px;
 }
 .wrap-input100 {
   width: 100%;
@@ -614,6 +616,7 @@ input:invalid {
 	margin-top: 18px;
 	font-weight: bolder;
 	color: #000;
+	width: 100%;
 }
 p.contact100-form-title1.cfot {
     margin-top: 15px;
