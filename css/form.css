@@ -633,3 +633,39 @@ p.contact100-form-title1.cfot {
 .wrap-contact102 {
     max-width: 900px;
 }
+/**/
+
+
+.talk img{
+	width: 500px
+}
+.talk1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.task {
+    border: 1px dashed #ccc;
+    padding: 30px;
+    border-radius: 10px;
+        margin-bottom: 15px;
+}
+.task1 {
+    border: 1px solid #ececec;
+}
+
+body.land .wrap-contact102 > p {
+    margin-bottom: 10px;
+}
+body.land .wrap-contact101 h1 {
+    font-size: 25px;
+    color: #bf805b;
+    font-style: italic;
+}
+@media screen and (max-width: 530px){
+.wrap-contact101{
+	display: block;
+}
+img{
+	width: 100% !important;
+}
+} 
