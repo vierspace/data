@@ -620,3 +620,16 @@ input:invalid {
 p.contact100-form-title1.cfot {
     margin-top: 15px;
 }
+.wrap-contact101 h1 {
+    font-size: 26px;
+    width: 100%;
+    padding-bottom: 12px;
+}
+.wrap-contact101 {
+    padding: 80px 30px;
+    display: flex;
+    justify-content: center;
+}
+.wrap-contact102 {
+    max-width: 900px;
+}
