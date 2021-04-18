@@ -1993,9 +1993,11 @@ border-top: 1px solid #f7f7f7;
 
 
 .ion-ios-checkmark-outline{
-    color: #f48120;
-    font-size: 18px;
+    color: #ff0000;
+    font-size: 24px;
     margin-right: 5px;
+    position: relative;
+    top: 2px;
 }
 .ion-ios-help-outline{
     font-size: 18px;
