@@ -2994,3 +2994,7 @@ border: 1px dashed #ddd;
 .ion{
     color: yellowgreen;
 }
+.wts {
+    position: sticky;
+    bottom: 5px;
+}
