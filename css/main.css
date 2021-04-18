@@ -722,7 +722,8 @@ h1.navbar-brand span{
 .service-item {
     margin-bottom: 60px;
     padding:0 14px;
-    background: #fff
+    background: #fff;
+border-bottom: 2px solid #ff7200 !important;
 }
 .service-icon i {
     font-size: 60px;
