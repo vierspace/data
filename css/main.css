@@ -1273,6 +1273,7 @@ textarea.form-control {
     padding: 70px 0;
     color: #fff;
     border-top: 2px solid #ff7200;
+	margin-bottom: -41px;
 }
 .foo-logo{
     position: relative; 
