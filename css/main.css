@@ -2381,6 +2381,9 @@ body, html{
 .iss-date p em{
     color:chocolate;
 }
+section.iss-date p {
+    padding: 0 30px;
+}
 /**/
 
 /*HOWTO CSS*/
