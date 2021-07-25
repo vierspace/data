@@ -3003,3 +3003,21 @@ position: sticky;
     font-weight: 700;
     padding-left: 5px;
 }
+/**/
+.fnumber {
+    position: fixed;
+    background: rgb(255 255 255 / 50%);
+    bottom: 4px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.fnumber p {
+        color: red;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.fnumber p img {
+    padding-right: 10px;
+}
