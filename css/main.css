@@ -167,6 +167,7 @@ main > section {
     color: #444;
     font-style: italic;
     font-size: 16px;
+	padding: 0px 33px;
 }
 .section-title.white p {
 color: #ffffff;
