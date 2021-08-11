@@ -155,6 +155,8 @@ main > section {
     padding-bottom: 20px;
     position: relative;
     text-transform: uppercase;
+	padding-left: 10px;
+padding-right: 10px;
 }
 .section-title .section-ttt:after {
     background: transparent;
